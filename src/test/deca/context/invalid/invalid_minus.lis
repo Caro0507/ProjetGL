@@ -1,0 +1,1 @@
+./src/test/deca/context/invalid/invalid_minus.deca:2:1: Unary minus operands needs to be either an int or a float

@@ -1,0 +1,27 @@
+// Méthode non implémentée
+
+// Date: 20.01.2022
+
+class A{
+
+    int entier;
+
+    void Action (){
+        this.entier = this.entier + 1;
+    }
+}
+
+class B extends A{
+
+
+    void GrosseAction(){
+        this.entier = this.entier + 1000;
+    }
+
+}
+
+{
+A a = new AA();
+a.Action();
+println("ben non");
+}

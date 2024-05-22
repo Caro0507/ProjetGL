@@ -1,0 +1,29 @@
+image: gitlab.ensimag.fr:5050/gl2022/g10/gl54:latest
+
+cache:
+  paths:
+    - target/
+
+build:
+  stage: build
+  script:
+    - source /home/gl/.bashrc
+    - mvn compile
+  only: 
+    - dev
+    - master
+    - gitlab-autotests
+
+test:
+  stage: test
+  script:
+    - source /home/gl/.bashrc
+    - mvn -Djacoco.skip=false verify
+    - cat target/site/index.html
+  artifacts:
+    paths:
+      - target/site/index.html
+  only:
+    - dev
+    - master
+    - gitlab-autotests

@@ -1,0 +1,1 @@
+./src/test/deca/context/invalid/int_print.deca:2:4: int is a predefined type, can't be a var name

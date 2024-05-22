@@ -1,0 +1,19 @@
+//Ici c'est la classe qui appelle la méthode
+
+// Date: 20.01.2022
+
+class A{
+
+    int entier;
+
+    void action (){
+        this.entier = this.entier + 1;
+    }
+}
+
+
+{
+A a = new A();
+A.action();
+println("ben non");
+}

@@ -1,0 +1,23 @@
+// e indéfini
+
+// Date: 20.01.2022
+
+class A{
+
+    int entier;
+
+    void action (){
+        this.entier = e+1;
+    }
+
+    void initEntier(){
+        this.entier=5;
+    }
+}
+
+{
+A a = new A();
+a.initEntier();
+a.action();
+println("ben non");
+}

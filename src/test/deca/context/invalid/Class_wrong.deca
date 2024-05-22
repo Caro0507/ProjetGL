@@ -1,0 +1,25 @@
+// Argument inattendu
+
+//Date: 20.01.2022
+
+class A{
+
+    int entier;
+
+    void action (){
+        this.entier = this.entier+1;
+    }
+
+    void setEntier (int e){
+        this.entier = e;
+    }
+
+}
+
+{
+A a = new A();
+a.setEntier(4);
+a.action(2);
+println("ben non");
+}
+

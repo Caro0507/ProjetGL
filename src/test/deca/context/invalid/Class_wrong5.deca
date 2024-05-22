@@ -1,0 +1,28 @@
+// Entier souhaité à la ligne 17
+
+// Date: 20.01.2022
+
+class A{
+
+    int entier;
+
+
+    void action (int e){
+        this.entier = this.entier + 1;
+    }
+}
+
+class B extends A{
+
+    void action (float e){
+        this.entier = this.entier + 10 * e;
+    }
+
+}
+
+{
+B b = new B();
+b.action(23);
+println (b.entier);
+println("ben non");
+}

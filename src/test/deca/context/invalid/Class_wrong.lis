@@ -1,0 +1,1 @@
+./src/test/deca/context/invalid/Class_wrong.deca:22:0: a.action has a wrong number of param, please check at the method defined at [9, 4]

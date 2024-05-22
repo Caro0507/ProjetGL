@@ -1,0 +1,20 @@
+// Description:
+//    Déclare différentes variables, avec ou sans initialisation
+//
+//
+// Historique:
+//    cree le 17/01/2022
+
+{
+int a;
+float b;
+boolean c;
+int d = 2;
+float e = 2.2;
+float f = 2;
+boolean g = false;
+a = 2;
+b = 2.2;
+b = 2;
+c = true;
+}

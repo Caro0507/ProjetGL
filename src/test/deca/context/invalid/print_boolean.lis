@@ -1,0 +1,1 @@
+./src/test/deca/context/invalid/print_boolean.deca:13:4: What is printed needs to be either an int, a float or a string

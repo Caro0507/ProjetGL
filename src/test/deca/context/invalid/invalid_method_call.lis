@@ -1,0 +1,1 @@
+./src/test/deca/context/invalid/invalid_method_call.deca:21:0: a.setE has a wrong number of param, please check at the method defined at [10, 4]
